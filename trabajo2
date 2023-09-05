@@ -1,0 +1,43 @@
+#include using namespace std;
+
+struct Nodo{
+int dato;
+Nodo *siguiente;
+
+};
+void menu();
+void insertarLista (Nodo *&,int);
+void mostrarLista(Nodo *);
+void buscarLista(Nodo *,int);
+Nodo *lista=NULL;
+
+int main (){
+menu();
+
+getch();
+return 0;
+}
+void menu(){
+int opcion,dato;}
+do{
+cout>opcion;
+}
+switch(opcion){
+case 1:cout>dato;
+insertarLista(lista,dato);
+cout>dato;
+buscarLista(lista,dato);
+coutdato=n;
+
+Nodo *aux1 = lista;
+Nodo *aux2;
+
+while ((aux1 !=NULL)&&(aux1->datosiguiente;
+}
+if(lista==aux1){
+lista=nuevo_nodo;
+}
+else{
+aux2->siguiente=nuevo_nodo;
+}
+nuevo_nodo->siguiente = aux1;
